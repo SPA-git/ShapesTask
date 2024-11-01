@@ -1,6 +1,6 @@
 using LibShapesArea.CalculationOop.Shapes;
 
-namespace LibShapesArea.Tests;
+namespace LibShapesArea.Tests.Shapes;
 
 public class TriangleTests
 {

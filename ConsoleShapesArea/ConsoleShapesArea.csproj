@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\LibShapesArea\LibShapesArea.csproj" />
+    <ProjectReference Include="..\LibShapesArea\LibShapesArea\LibShapesArea.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
