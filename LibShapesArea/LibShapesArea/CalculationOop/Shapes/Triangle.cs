@@ -56,7 +56,6 @@ public class Triangle : IShape
 
     private static bool IsTrueHypotenuse(float hypotenuse, float leg1, float leg2)
     {
-        float difference = hypotenuse * hypotenuse * 0.0001f;
-        return hypotenuse * hypotenuse - leg1 * leg1 - leg2 * leg2 < difference;
+        return FloatOperations.Equals(hypotenuse * hypotenuse, leg1 * leg1 + leg2 * leg2);;
     }
 }
