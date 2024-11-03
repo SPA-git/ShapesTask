@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LibShapesArea\LibShapesArea\LibShapesArea.csproj" />
+    <ProjectReference Include="..\LibShapeReader\LibShapeReader.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
